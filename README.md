@@ -1,6 +1,6 @@
 # sync_button
 
-This is a small **long poll** test using Express as the HTTP server and AngularJS for both requests and data binding. The mais page features a toggle button and a banner which displayes the `state` variable. When opened on multiple devices, a single button click on any device will update the server-side data and all clients as fast as possible.
+This is a small **long poll** test using Express as the HTTP server and AngularJS for both requests and data binding. The main page features a toggle button and a banner which displayes the `state` variable. When opened on multiple devices, a single button click on any device will update the server-side data and all clients as fast as possible.
 
 It uses a smaller number of requests when compared to regular polls that return immediately. By keeping the connection alive, one can guarantee fast updates when data changes. However, long timeout values may also mask connection errors.
 
